@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00FFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minicart.Controller">
+   <children>
+      <Button fx:id="aboutUsButton1" layoutX="350.0" layoutY="59.0" mnemonicParsing="false" onAction="#aboutUsButtonOnAction1" style="-fx-background-color: #00FFFF;" text="About us" />
+      <Button fx:id="homeButton1" layoutX="122.0" layoutY="59.0" mnemonicParsing="false" onAction="#homeButtonOnAction1" style="-fx-background-color: #00FFFF;" text="Home" />
+      <Button fx:id="categoryButton1" layoutX="185.0" layoutY="59.0" mnemonicParsing="false" onAction="#categoryButtonOnAction1" style="-fx-background-color: #00FFFF;" text="Category">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bestSellButton1" layoutX="262.0" layoutY="59.0" mnemonicParsing="false" onAction="#bestSellButtonOnAction1" style="-fx-background-color: #00FFFF;" text="Best Sellers" />
+      <Button fx:id="contactUsButton1" layoutX="427.0" layoutY="59.0" mnemonicParsing="false" onAction="#contactUsButtonOnAction1" style="-fx-background-color: #00FFFF;" text="Contact us" />
+      <Button fx:id="fashionButton" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#fashionButtonOnAction" style="-fx-background-color: #00FFFF;" text="Fasion">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="electronicsButton" layoutX="14.0" layoutY="156.0" mnemonicParsing="false" onAction="#electronicsButtonOnAction" style="-fx-background-color: #00FFFF;" text="Electronics" />
+      <Pane layoutX="92.0" layoutY="100.0" prefHeight="280.0" prefWidth="486.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="5.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/mens/shirt.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="54.0" fitWidth="64.0" layoutX="12.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/women/tops.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="59.0" layoutX="12.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/women/dress.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="67.0" layoutX="5.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/mens/tshirt.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="76.0" layoutX="247.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/mens/jeans.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="72.0" layoutX="247.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/mens/shoes.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="72.0" layoutX="247.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/women/jeans.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="67.0" fitWidth="72.0" layoutX="247.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/women/sandels.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="73.0" layoutY="6.0" text="Casual Shirt:" />
+            <Label layoutX="73.0" layoutY="150.0" text="Black top:" />
+            <Label layoutX="73.0" layoutY="79.0" text="Sleeves t-shirt:" />
+            <Label layoutX="73.0" layoutY="209.0" text="Navy blue dress:" />
+            <Label layoutX="316.0" layoutY="218.0" text="Golden Sandel:" />
+            <Label layoutX="316.0" layoutY="150.0" text="Blue Cropped Jeans:" />
+            <Label layoutX="314.0" layoutY="79.0" text="Smoky shoes:" />
+            <Label layoutX="314.0" layoutY="5.0" text="Blue slimfit jeans:" />
+            <Button fx:id="okButton" layoutX="92.0" layoutY="38.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="323.0" layoutY="235.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="323.0" layoutY="177.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="323.0" layoutY="113.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="92.0" layoutY="235.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="92.0" layoutY="177.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="92.0" layoutY="113.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Button fx:id="okButton" layoutX="323.0" layoutY="38.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #00FFFF;" text="→" />
+            <Label layoutX="147.0" layoutY="6.0" text="₹499" />
+            <Label layoutX="399.0" layoutY="217.0" text="₹250" />
+            <Label layoutX="423.0" layoutY="150.0" text="₹399" />
+            <Label layoutX="387.0" layoutY="79.0" text="₹1200" />
+            <Label layoutX="161.0" layoutY="210.0" text="₹999" />
+            <Label layoutX="127.0" layoutY="150.0" text="₹659" />
+            <Label layoutX="410.0" layoutY="6.0" text="₹399" />
+            <Label layoutX="153.0" layoutY="79.0" text="₹349" />
+         </children></Pane>
+      <Button fx:id="accessoriesButton" layoutX="14.0" layoutY="206.0" mnemonicParsing="false" onAction="#accessoriesButtonOnAction" style="-fx-background-color: #00FFFF;" text="Accessories" />
+   </children>
+</Pane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00FFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minicart.Controller">
+   <children>
+      <Button fx:id="aboutUsButton3" layoutX="350.0" layoutY="59.0" mnemonicParsing="false" onAction="#aboutUsButtonOnAction3" style="-fx-background-color: #00FFFF;" text="About us">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="homeButton3" layoutX="122.0" layoutY="59.0" mnemonicParsing="false" onAction="#homeButtonOnAction3" style="-fx-background-color: #00FFFF;" text="Home" />
+      <Button fx:id="categoryButton3" layoutX="185.0" layoutY="59.0" mnemonicParsing="false" onAction="#categoryButtonOnAction3" style="-fx-background-color: #00FFFF;" text="Category" />
+      <Button fx:id="bestSellButton3" layoutX="262.0" layoutY="59.0" mnemonicParsing="false" onAction="#bestSellButtonOnAction3" style="-fx-background-color: #00FFFF;" text="Best Sellers" />
+      <Button fx:id="contactUsButton3" layoutX="427.0" layoutY="59.0" mnemonicParsing="false" onAction="#contactUsButtonOnAction3" style="-fx-background-color: #00FFFF;" text="Contact us" />
+      <Pane layoutX="14.0" layoutY="84.0" prefHeight="304.0" prefWidth="573.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="259.0" fitWidth="471.0" layoutX="60.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/aboutus/2021-12-15.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</Pane>

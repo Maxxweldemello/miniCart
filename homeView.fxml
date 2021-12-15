@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00FFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minicart.Controller">
+   <children>
+      <Button fx:id="aboutUsButton" layoutX="350.0" layoutY="59.0" mnemonicParsing="false" onAction="#aboutUsButtonOnAction" style="-fx-background-color: #00FFFF;" text="About us" />
+      <Button fx:id="homeButton" layoutX="122.0" layoutY="59.0" mnemonicParsing="false" onAction="#homeButtonOnAction" style="-fx-background-color: #00FFFF;" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="categoryButton" layoutX="185.0" layoutY="59.0" mnemonicParsing="false" onAction="#categoryButtonOnAction" style="-fx-background-color: #00FFFF;" text="Category" />
+      <Button fx:id="bestSellButton" layoutX="262.0" layoutY="59.0" mnemonicParsing="false" onAction="#bestSellButtonOnAction" style="-fx-background-color: #00FFFF;" text="Best Sellers" />
+      <Button fx:id="contactUsButton" layoutX="427.0" layoutY="59.0" mnemonicParsing="false" onAction="#contactUsButtonOnAction" style="-fx-background-color: #00FFFF;" text="Contact us" />
+      <Pane layoutX="12.0" layoutY="81.0" prefHeight="305.0" prefWidth="575.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Pane layoutX="14.0" layoutY="24.0" prefHeight="257.0" prefWidth="426.0" style="-fx-background-color: #30BFBF;">
+               <children>
+                  <Label layoutX="49.0" layoutY="56.0" text="Fashion">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="49.0" layoutY="102.0" text="Flat 40% OFF">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="287.0" layoutY="135.0" text="BUY NOW">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="454.0" layoutY="24.0" prefHeight="78.0" prefWidth="76.0" style="-fx-background-color: #FF007C;">
+               <children>
+                  <Label layoutX="25.0" layoutY="14.0" text="Best " />
+                  <Label layoutX="23.0" layoutY="31.0" text="offers" />
+                  <Label layoutX="15.0" layoutY="48.0" text="available" />
+               </children>
+            </Pane>
+            <Pane layoutX="454.0" layoutY="114.0" prefHeight="78.0" prefWidth="76.0" style="-fx-background-color: #008080;">
+               <children>
+                  <Label layoutX="16.0" layoutY="31.0" text="Branded" />
+                  <Label layoutX="27.0" layoutY="14.0" text="Real" />
+                  <Label layoutX="15.0" layoutY="48.0" text="Products" />
+               </children>
+            </Pane>
+            <Pane layoutX="454.0" layoutY="203.0" prefHeight="78.0" prefWidth="76.0" style="-fx-background-color: #A7F432;">
+               <children>
+                  <Label layoutX="17.0" layoutY="14.0" text="Secured" />
+                  <Label layoutX="15.0" layoutY="31.0" text="Payment" />
+                  <Label layoutX="20.0" layoutY="48.0" text="Facility" />
+               </children>
+            </Pane>
+         </children></Pane>
+   </children>
+</Pane>
